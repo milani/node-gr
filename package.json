@@ -1,0 +1,21 @@
+{
+  "name": "node-gr",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/milani/gr"
+  },
+  "author": {
+    "name": "Morteza Milani",
+    "email": "mrtz.milani@gmail.com"
+  },
+  "main": "gr.js",
+  "bin":{
+  	"gr": "./gr.js"
+  },
+  "description": "Gist Runner for Nodejs!",
+  "version": "0.0.1",
+  "dependencies": {
+    "temp": "0.4.x",
+    "request":"2.x"
+  }
+}
